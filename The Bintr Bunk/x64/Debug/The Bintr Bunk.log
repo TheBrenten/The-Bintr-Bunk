@@ -1,0 +1,61 @@
+﻿  AnimFunc.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BintrImage.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(3): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BintrsTools.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ImageObj.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Bullet.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Enemy.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  GameFunction.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  GameObject.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  glInfo.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(110): warning C4312: 'type cast': conversion from 'unsigned int' to 'HDC' of greater size
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(79): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(80): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: see declaration of 'strtok'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(84): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: see declaration of 'strtok'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(114): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(115): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: see declaration of 'strtok'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\glinfo.cpp(119): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: see declaration of 'strtok'
+  Grenade.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Hat.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Item.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  LoadResources.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\loadresources.h(3): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  main.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\main.cpp(4): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MenuFunctions.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MenuObjects.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(4): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Particle.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  PhysFunc.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  PhysicsStuff.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Player.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  Region.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  RenderFunc.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Weapon.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...

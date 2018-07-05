@@ -1,101 +1,805 @@
-﻿  Player.cpp
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(75): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(76): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\particle.h(54): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\particle.h(98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\particle.h(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(57): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(58): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(64): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(67): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(70): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(73): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(112): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(113): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(114): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(115): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(116): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(118): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(130): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(296): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(313): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(361): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(388): warning C4305: '*=': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(422): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(435): warning C4305: '*=': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(452): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(600): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(635): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(652): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(660): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(671): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(699): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(707): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(718): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(961): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\player.cpp(1162): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  AnimFunc.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\animfunc.cpp(100): warning C4018: '>=': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\animfunc.cpp(117): warning C4018: '>=': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\animfunc.cpp(175): warning C4018: '>=': signed/unsigned mismatch
+  BintrImage.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.cpp(10): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.cpp(11): warning C4018: '<': signed/unsigned mismatch
+  BintrsTools.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(11): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(81): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(94): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(180): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(341): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(341): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(423): warning C4244: 'initializing': conversion from 'sf::Uint64' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(432): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(436): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(438): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(439): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(477): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(484): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(485): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(497): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(498): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(507): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(508): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(511): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(512): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(529): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(547): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(548): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(549): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(550): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(593): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(594): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(601): warning C4018: '>': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(610): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(611): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(615): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(616): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(620): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(630): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(631): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(631): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(639): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(640): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(640): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(704): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(705): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(720): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(721): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(725): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(726): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(777): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(785): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ImageObj.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Bullet.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(39): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(46): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(50): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(76): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(77): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(98): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bullet.cpp(123): warning C4018: '<': signed/unsigned mismatch
+  Enemy.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(75): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(145): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(148): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(150): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(151): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(157): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(163): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(164): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(170): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(181): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(193): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(201): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(244): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(248): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(271): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(304): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(309): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(390): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(400): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(403): warning C4244: 'initializing': conversion from 'sf::Int64' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(405): warning C4244: 'argument': conversion from 'float' to 'sf::Int64', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(411): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\enemy.cpp(412): warning C4018: '<': signed/unsigned mismatch
+  GameFunction.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gamefunction.cpp(10): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gamefunction.cpp(12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  GameObject.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gameobject.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gameobject.cpp(25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gameobject.cpp(26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gameobject.cpp(27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gameobject.cpp(28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\gameobject.cpp(54): warning C4018: '<': signed/unsigned mismatch
+  glInfo.cpp
+  Grenade.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\grenade.cpp(28): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\grenade.cpp(29): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\grenade.cpp(33): warning C4018: '<': signed/unsigned mismatch
+  Hat.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Item.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   LoadResources.cpp
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(75): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(76): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\weapon.h(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\item.h(20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bintr\desktop\coding - scripting\c++\visual studio\the bintr bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(124): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(126): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(133): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(238): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(240): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(262): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(263): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\main.cpp(42): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\main.cpp(56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  MenuFunctions.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(124): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(126): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(133): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(238): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(240): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(262): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(263): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(103): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(120): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(139): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(260): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(261): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(262): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(265): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(264): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(273): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(280): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(287): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(294): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(357): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(367): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(375): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(382): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(389): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(480): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(481): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(482): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(483): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(484): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(529): warning C4018: '>=': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(570): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menufunctions.cpp(577): warning C4305: 'argument': truncation from 'double' to 'float'
+  MenuObjects.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(124): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(126): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(133): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(238): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(240): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(262): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(263): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Particle.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(8): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(13): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(34): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(36): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(40): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(41): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(56): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.cpp(66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PhysFunc.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(124): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(126): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(133): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(238): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(240): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(262): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(263): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physfunc.cpp(41): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physfunc.cpp(73): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physfunc.cpp(75): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physfunc.cpp(76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physfunc.cpp(79): warning C4305: '=': truncation from 'double' to 'float'
+  PhysicsStuff.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Player.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(25): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(26): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(29): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(41): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(86): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(87): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(88): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(92): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(95): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(98): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(101): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(123): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(279): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(306): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(340): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(353): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(370): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(519): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(546): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(561): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(586): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(602): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(611): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(619): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(627): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(646): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(659): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(667): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(674): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(804): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(960): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\player.cpp(1344): warning C4305: 'argument': truncation from 'double' to 'float'
   Generating Code...
-  The Bintr Bunk.vcxproj -> C:\Users\bintr\Desktop\Coding - Scripting\C++\Visual Studio\The Bintr Bunk\Debug\The Bintr Bunk.exe
-  The Bintr Bunk.vcxproj -> C:\Users\bintr\Desktop\Coding - Scripting\C++\Visual Studio\The Bintr Bunk\Debug\The Bintr Bunk.pdb (Partial PDB)
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.cpp(466): warning C4715: 'getTerrainType': not all control paths return a value
+  Compiling...
+  Region.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(124): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(126): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(133): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(238): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(240): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(262): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(263): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(60): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(61): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(104): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(117): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(122): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(123): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(155): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(209): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(257): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(272): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(271): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(340): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(342): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(359): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(361): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(362): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(408): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(481): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(494): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(497): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.cpp(504): warning C4018: '<': signed/unsigned mismatch
+  RenderFunc.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\particle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\physicsstuff.h(33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(124): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(126): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(133): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(174): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(238): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(240): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(262): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(263): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\menuobjects.h(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\item.h(19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(98): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(114): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(118): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(123): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(125): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(138): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(140): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(182): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(183): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(237): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(236): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(283): warning C4018: '>': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(338): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(406): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(420): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(438): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(439): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(440): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(441): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(462): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(492): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(498): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(503): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(539): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(542): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(543): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(571): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(572): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(598): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(615): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(688): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(693): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(347): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(348): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(349): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(350): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\renderfunc.cpp(563): warning C4390: ';': empty controlled statement found; is this the intent?
+  Weapon.cpp
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrstools.h(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\region.h(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\hat.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\bintrimage.h(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.cpp(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.cpp(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bintr\source\repos\the-bintr-bunk\the bintr bunk\weapon.cpp(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  The Bintr Bunk.vcxproj -> C:\Users\bintr\source\repos\The-Bintr-Bunk\Debug\The Bintr Bunk.exe
