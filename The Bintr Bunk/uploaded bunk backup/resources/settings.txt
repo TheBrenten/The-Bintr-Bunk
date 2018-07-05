@@ -1,0 +1,6 @@
+Graphics Settings:
+
+Max FPS = 60
+Fullscreen = false
+Resolution = 1366x768
+

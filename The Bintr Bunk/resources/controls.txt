@@ -1,0 +1,17 @@
+Controls:
+
+Move Up = W
+Move Down = S
+Move Left = A
+Move Right = D
+Zoom In = Plus
+Zoom Out = Minus
+Reset Zoom = Enter
+Left Hand = Left Mouse
+Right Hand = Right Mouse
+Reload = R
+Draw Regions = Backspace
+Jump = Space
+Noclip = T
+Hotbar = X
+Inventory = E

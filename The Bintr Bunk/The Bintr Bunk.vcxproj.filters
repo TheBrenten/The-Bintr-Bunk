@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AnimFunc.cpp">
+      <Filter>Looped Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysFunc.cpp">
+      <Filter>Looped Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BintrsTools.cpp" />
+    <ClCompile Include="Particle.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFunction.cpp">
+      <Filter>_Hide</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadResources.cpp" />
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Hat.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="glInfo.cpp">
+      <Filter>_Hide</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameObjects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>GameObjects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BintrImage.cpp" />
+    <ClCompile Include="PhysicsStuff.cpp" />
+    <ClCompile Include="MenuFunctions.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuObjects.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderFunc.cpp">
+      <Filter>Looped Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObj.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BintrsTools.h" />
+    <ClInclude Include="AnimFunc.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysFunc.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderFunc.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunction.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadResources.h" />
+    <ClInclude Include="Weapon.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Hat.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="glext.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="glInfo.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>_Hide</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFunctions.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameObjects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>GameObjects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BintrImage.h" />
+    <ClInclude Include="PhysicsStuff.h" />
+    <ClInclude Include="MenuObjects.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObj.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Looped Functions">
+      <UniqueIdentifier>{a453ca05-4ea2-43ce-b03a-e73df056aad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{a199affb-e9f5-4cbd-bf2b-d4927d8024ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Hide">
+      <UniqueIdentifier>{2372a046-0e24-47b1-bf23-56f913cb231f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{ab3859d0-8f79-46d0-b659-8261b5106d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{b1bbc377-b6ad-43ec-81be-f1c594b6ed3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Projectiles">
+      <UniqueIdentifier>{939fcd98-7dac-4d01-85c1-3a4af867c08b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

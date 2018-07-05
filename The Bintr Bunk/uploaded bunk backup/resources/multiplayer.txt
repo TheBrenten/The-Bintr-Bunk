@@ -1,0 +1,5 @@
+Multiplayer Settings:
+
+User Name = ass
+Connect Port = 6969
+Connect IP   = 206.83.246.40

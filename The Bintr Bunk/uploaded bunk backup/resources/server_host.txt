@@ -1,0 +1,4 @@
+Server Host Settings
+
+Host IP      = 71.176.135.190
+Host Port    = 6969
